@@ -1,7 +1,7 @@
 # yousa-ling-diffsinger-v1
 泠鸢yousa的Diffsinger模型v1版
 
-Based on [Diffsinger Project](https://github.com/MoonInTheRiver/DiffSinger)
+Based on [Diffsinger Project](https://github.com/openvpi/DiffSinger)
 
 在BiliBili查看我们的[演示及配布视频](https://www.bilibili.com/video/BV1cC4y1o7wE)!
 
