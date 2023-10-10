@@ -1,0 +1,5 @@
+﻿singer_type: diffsinger
+text_file_encoding: utf-8
+portrait: yousa-background.png
+portrait_opacity: 0.67
+default_phonemizer: OpenUtau.Core.DiffSinger.DiffsingerMandarinPhonemizer
