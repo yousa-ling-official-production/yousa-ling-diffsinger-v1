@@ -3,6 +3,7 @@
 
 **本仓库属于 泠鸢yousa创作组官方号的GitHub仓库 对于其Diffsinger声库的临时分发repo**
 
+改动日志见[Changelog](https://github.com/KakaruHayate/yousa-ling-diffsinger-v1/blob/main/CHANGELOG.md)
 
 # yousa-ling-diffsinger-v1
 泠鸢yousa的Diffsinger模型v1版
