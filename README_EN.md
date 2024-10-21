@@ -9,7 +9,7 @@ Lingyuosa's Diffsinger model version 1
 
 Based on the [Diffsinger Project](https://github.com/openvpi/DiffSinger)
 
-Check out our [demo and distribution video](https://www.bilibili.com/video/BV1cC4y1o7wE) on BiliBili!
+Check out our [demo and release video](https://www.bilibili.com/video/BV1cC4y1o7wE) on BiliBili!
 
 Voice source & chorus demo with the AI [【泠鸢&AI】与自己的ai音源合唱，你能分辨嘛？《时光洪流》【原唱：程响】](https://www.bilibili.com/video/BV1oE421N7eM/)
 
