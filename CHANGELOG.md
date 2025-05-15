@@ -1,6 +1,33 @@
 # 更新日志
 
 
+## V1.6
+
+2025/04/20
+- 新的优化器Muon
+- backbone network: LYNXNet → LYNXNet2 again
+- 因为新的优化器下唱法非常有想法，尝试为variance模型重新添加了TPSE模块
+- Falsetto 参数实装（你需要使用我们自行编译的OpenUTAU）
+- 删除了Joyful声线（之前为了解决一部分可调性问题的复用声线）
+- 目前声线：Normal、Cute、Bright（Main进行分类的三种声线），Whisper（提取精修数据），Classic（早期投稿提取）
+
+
+## V1.6falsetto_test
+
+2025/04/12
+- backbone换回LYNXNet
+- 添加了新参数 假声 falsetto(FLAC) : 第二谐波到第四谐波的衰减率
+- 目前 falsetto 参数通过 mouth opening接口调用，请通过调节OPEC使用falsetto参数
+- 改善了pitch模型颤音过于夸张的问题
+
+
+## V1.6test1
+
+2025/03/20
+- backbone network: LYNXNet → LYNXNet2
+- 位置编码换用了RoPE
+
+
 ## V1.5
 
 2024/10/20
@@ -210,11 +237,11 @@
 
 
 
- [1]: https://github.com/yousa-ling-official-production/yousa-ling-diffsinger-v1/pull/2
- [2]: https://github.com/openvpi/DiffSinger
- [3]: https://github.com/fishaudio/fish-diffusion/releases/tag/v2.0.0
- [4]: https://openvpi.github.io/vocoders/
- [5]: https://github.com/KakaruHayate/CODEY_Dataset
- [6]: https://github.com/haru0l/OpenUtau/releases
- [7]: https://github.com/CNChTu/DiffSinger
- [8]: https://github.com/openvpi/DiffSinger/pull/191
+[1]: https://github.com/yousa-ling-official-production/yousa-ling-diffsinger-v1/pull/2
+[2]: https://github.com/openvpi/DiffSinger
+[3]: https://github.com/fishaudio/fish-diffusion/releases/tag/v2.0.0
+[4]: https://openvpi.github.io/vocoders/
+[5]: https://github.com/KakaruHayate/CODEY_Dataset
+[6]: https://github.com/haru0l/OpenUtau/releases
+[7]: https://github.com/CNChTu/DiffSinger
+[8]: https://github.com/openvpi/DiffSinger/pull/191
